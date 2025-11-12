@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Rx4vg/JiOk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Melina\\source\\repos\\WebApplication1\\NetCoreAPIPostgresQSL.Data\\NetCoreAPIPostgresQSL.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Melina\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\Melina\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.logging.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\Melina\\.nuget\\packages\\npgsql\\10.0.0-rc.1\\npgsql.10.0.0-rc.1.nupkg.sha512",
+    "C:\\Users\\Melina\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0-rc.1.25451.107\\system.diagnostics.diagnosticsource.10.0.0-rc.1.25451.107.nupkg.sha512"
+  ],
+  "logs": []
+}
