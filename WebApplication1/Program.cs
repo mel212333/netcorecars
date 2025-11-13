@@ -1,5 +1,6 @@
 using Microsoft.OpenApi.Models;
 using NetCoreAPIPostgresQSL.Data;
+using NetCoreAPIPostgresQSL.Data.repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,7 @@ builder.Services.AddSwaggerGen(c =>
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 var postgresSQLConnectionConfiguration = new PostgresSQLConfiguration(connectionString);
 builder.Services.AddSingleton(postgresSQLConnectionConfiguration);
+builder.Services.AddScoped<CarRepository, CarRepository>();
 
 var app = builder.Build();
 
